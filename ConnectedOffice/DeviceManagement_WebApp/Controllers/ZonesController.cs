@@ -14,9 +14,9 @@ namespace DeviceManagement_WebApp.Controllers
     public class ZonesController : Controller
     {
         private readonly IZoneRepository _zoneRepository;
-        public ZonesController(IZoneRepository ZoneRepository)
+        public ZonesController(IZoneRepository zoneRepository)
         {
-            _zoneRepository = ZoneRepository;
+            _zoneRepository = zoneRepository;
         }
 
         // GET: Services
@@ -25,6 +25,7 @@ namespace DeviceManagement_WebApp.Controllers
             return View(_zoneRepository.GetAll());
         }
     }
+
 
 
 }

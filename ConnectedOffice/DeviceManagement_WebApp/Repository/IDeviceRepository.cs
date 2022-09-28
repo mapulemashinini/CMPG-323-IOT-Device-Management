@@ -1,6 +1,10 @@
-﻿namespace DeviceManagement_WebApp.Repository
+﻿using DeviceManagement_WebApp.Models;
+
+namespace DeviceManagement_WebApp.Repository
 {
-    public interface IDeviceRepository
+    public interface IDeviceRepository : IGenericRepository<Device>
     {
+        Category GetMostRecentDevice();
     }
+
 }

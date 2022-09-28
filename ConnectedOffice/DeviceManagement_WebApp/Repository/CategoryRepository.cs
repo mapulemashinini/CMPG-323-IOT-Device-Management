@@ -1,6 +1,5 @@
-﻿using DeviceManagement_WebApp.Data;
-using DeviceManagement_WebApp.Models;
-using System.Collections.Generic;
+﻿using DeviceManagement_WebApp.Models;
+using DeviceManagement_WebApp.Data;
 using System.Linq;
 
 namespace DeviceManagement_WebApp.Repository

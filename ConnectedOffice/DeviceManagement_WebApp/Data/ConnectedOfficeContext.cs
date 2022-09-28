@@ -78,6 +78,7 @@ namespace DeviceManagement_WebApp.Data
             });
 
             OnModelCreatingPartial(modelBuilder);
+
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

@@ -10,7 +10,7 @@ namespace DeviceManagement_WebApp.Models
 {
     public partial class Category
     {
-        internal readonly object CreatedDate;
+        internal readonly DateTime CreatedDate;
 
         public Category()
         {

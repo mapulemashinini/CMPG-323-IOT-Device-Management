@@ -1,6 +1,5 @@
-﻿using DeviceManagement_WebApp.Data;
-using DeviceManagement_WebApp.Models;
-using System.Collections.Generic;
+﻿using DeviceManagement_WebApp.Models;
+using DeviceManagement_WebApp.Data;
 using System.Linq;
 
 namespace DeviceManagement_WebApp.Repository
@@ -11,9 +10,14 @@ namespace DeviceManagement_WebApp.Repository
         {
         }
 
-        public Zone GetMostRecentCategory()
+        public Category GetMostRecentZone()
         {
-            return _context.Zone.OrderByDescending(service => service.CreatedDate).FirstOrDefault();
+            return _context.Category.OrderByDescending(service => service.CreatedDate).FirstOrDefault();
+        }
+
+        Zone IZoneRepository.GetMostRecentZone()
+        {
+            throw new System.NotImplementedException();
         }
     }
 

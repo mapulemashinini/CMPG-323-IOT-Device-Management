@@ -20,7 +20,7 @@ namespace DeviceManagement_WebApp.Controllers
         }
 
         // GET: Services
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             return View(_categoryRepository.GetAll());
         }
