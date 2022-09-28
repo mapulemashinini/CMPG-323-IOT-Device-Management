@@ -10,6 +10,8 @@ namespace DeviceManagement_WebApp.Models
 {
     public partial class Zone
     {
+        internal readonly object CreatedDate;
+
         public Zone()
         {
             Device = new HashSet<Device>();

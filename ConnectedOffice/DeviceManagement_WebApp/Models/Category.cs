@@ -10,6 +10,8 @@ namespace DeviceManagement_WebApp.Models
 {
     public partial class Category
     {
+        internal readonly object CreatedDate;
+
         public Category()
         {
             Device = new HashSet<Device>();
