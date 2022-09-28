@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>aspnet-DeviceManagement_WebApp-6F3AC63E-FA4F-4015-8547-96D7DBF8C824</UserSecretsId>
+    <GenerateRntimeConfigurationFiles>True</GenerateRntimeConfigurationFiles>
   </PropertyGroup>
 
   <ItemGroup>
