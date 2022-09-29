@@ -1,5 +1,13 @@
 {
   "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "nativeDebugging": false
+    },
     "DeviceManagement_WebApp": {
       "commandName": "Project",
       "launchBrowser": true,
